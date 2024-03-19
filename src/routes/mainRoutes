@@ -1,0 +1,17 @@
+import { lazy } from "react";
+
+const mainRoutes = [
+  {
+    name: "Home",
+    path: "/",
+    exact: true,
+    component: lazy(() => import("../pages/HomePage")),
+  },
+  {
+    name: "About",
+    path: "/",
+    exact: true,
+    component: lazy(() => import("../pages/AboutPage")),
+  },
+];
+export default mainRoutes;

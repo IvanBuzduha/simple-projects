@@ -1,7 +1,7 @@
 const TabContent = ({ title, content }) => (
   <div className="tabcontent">
     <h3>{title}</h3>
-    <p>{content}</p>
+    <a href="{content}" />
   </div>
 );
 export default TabContent;
