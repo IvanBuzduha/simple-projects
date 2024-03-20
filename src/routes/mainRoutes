@@ -5,13 +5,13 @@ const mainRoutes = [
     name: "Home",
     path: "/",
     exact: true,
-    component: lazy(() => import("../pages/HomePage")),
+    component: lazy(() => import("../components/pages/HomePage/HomePage")),
   },
   {
     name: "About",
     path: "/",
     exact: true,
-    component: lazy(() => import("../pages/AboutPage")),
+    component: lazy(() => import("../components/pages/AboutPage/AboutPage")),
   },
 ];
 export default mainRoutes;

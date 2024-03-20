@@ -1,11 +1,11 @@
 import { Route, Router, Routes, Switch } from "react-router-dom";
 import "./App.css";
 import { Tabs } from "./components/Tabs/Tabs";
-import items from "./components/Tabs/items.json";
+
 import mainRoutes from "./routes/mainRoutes";
 import HomePage from "./components/pages/HomePage/HomePage";
 import AboutPage from "./components/pages/AboutPage/AboutPage";
-import MainPage from "./components/pages/MainPage/Main";
+import MainPage from "./components/pages/MainPage/MainPage";
 import NoPage from "./components/pages/NoPage/NoPage";
 
 function App() {

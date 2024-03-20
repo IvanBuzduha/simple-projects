@@ -1,7 +1,6 @@
 import { useState } from "react";
 import TabContent from "./TabContent";
 
-import "./Tabs.css";
 export const Tabs = ({ items }) => {
   const [active, setActive] = useState(null);
 
