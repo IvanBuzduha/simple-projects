@@ -26,6 +26,11 @@ const MainPage = () => {
             </Link>
           </li>
           <li className="tab">
+            <Link to="/clock" className="tablinks">
+              Clock
+            </Link>
+          </li>
+          <li className="tab">
             <Link to="*" className="tablinks">
               NoPage
             </Link>
