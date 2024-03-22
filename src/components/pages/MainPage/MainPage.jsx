@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 import { Link, Outlet, Route } from "react-router-dom";
-import "./Tabs.css";
+import "./mainPage.css";
 import mainRoutes from "../../../routes/mainRoutes";
 import items from "../../../components/Tabs/items.json";
 const MainPage = () => {
