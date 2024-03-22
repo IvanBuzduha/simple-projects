@@ -1,26 +1,29 @@
 .currency-section {
-    background-color: rgb(75, 75, 91);
-    width: 200px;
-    margin: 0 auto 20px;
-    display: grid;
-    grid-template-columns: 100px 80px;
-    border-radius: 15px;
+  background-color: rgb(75, 75, 91);
+  width: 200px;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: 100px 80px;
+  border-radius: 15px;
 }
-
+.currencyTitle {
+  margin: 5%;
+  font-size: 20px;
+}
 .currency-input,
 .currency-select {
-    background: none;
-    border: none;
-    border-radius: 15px;    
-    color: #fff;
-    background-color: rgb(75, 75, 91);
+  background: none;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgb(75, 75, 91);
 }
 
-.currency-input{
-    padding-left: 15px;
-        width: 200px;
+.currency-input {
+  padding-left: 15px;
+  width: 200px;
 }
 
 .currency-select {
-    padding: 10px;
+  padding: 10px;
 }

@@ -70,7 +70,7 @@ const CurrencySection = () => {
   }
   return (
     <>
-      <h1>Currency Converter</h1>
+      <h1 className="currencyTitle">Currency Converter</h1>
       <CurrencyInput
         onAmountChange={handleFirstAmountChange}
         onCurrencyChange={handleFirstCurrencyChange}
