@@ -10,7 +10,7 @@
   background-color: #f1f1f1;
 }
 
-.tab .tablinks {
+.tab .tabLinks {
   background-color: inherit;
   float: left;
   border: none;
@@ -24,11 +24,11 @@
   text-decoration: none;
 }
 
-.tab .tablinks:hover {
+.tab .tabLinks:hover {
   background-color: #5adf75;
 }
 
-.tab .tablinks .active {
+.tab .tabLinks .active {
   background-color: #60eb71d9;
   box-shadow: rgba(4, 196, 81, 0.5) 0px 2px 5px -1px, rgba(31, 223, 89, 0.3) 0px 1px 3px -1px;
 }

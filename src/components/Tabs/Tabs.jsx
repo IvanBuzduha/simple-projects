@@ -10,7 +10,7 @@ export const Tabs = ({ items }) => {
     <div className="main">
       <div className="tab">
         {items.map((n, i) => (
-          <button className={`tablinks ${i === active ? "active" : ""}`} onClick={openTab} data-index={i}>
+          <button className={`tabLinks ${i === active ? "active" : ""}`} onClick={openTab} data-index={i}>
             {n.title}
           </button>
         ))}

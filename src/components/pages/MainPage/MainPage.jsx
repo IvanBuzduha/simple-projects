@@ -16,30 +16,30 @@ const MainPage = () => {
             {/* {items.map(item => (
               <Link {...item} key={item.path} />
             ))} */}
-            <Link to="/" className="tablinks">
+            <Link to="/" className="tabLinks">
               Home
             </Link>
           </li>
           <li className="tab">
-            <Link to="/about" className="tablinks">
+            <Link to="/about" className="tabLinks">
               About
             </Link>
           </li>
 
           <li className="tab">
-            <Link to="/currency" className="tablinks">
+            <Link to="/currency" className="tabLinks">
               Currency
             </Link>
           </li>
 
           <li className="tab">
-            <Link to="/buttons" className="tablinks">
+            <Link to="/buttons" className="tabLinks">
               Buttons
             </Link>
           </li>
 
           <li className="tab">
-            <Link to="*" className="tablinks">
+            <Link to="*" className="tabLinks">
               NoPage
             </Link>
           </li>
