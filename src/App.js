@@ -7,7 +7,10 @@ import HomePage from "./components/pages/HomePage/HomePage";
 import AboutPage from "./components/pages/AboutPage/AboutPage";
 import MainPage from "./components/pages/MainPage/MainPage";
 import NoPage from "./components/pages/NoPage/NoPage";
-import ClockAnalog from "./components/pages/ClockAnalog/ClockAnalog";
+
+import CurrencyInput from "./components/CurrencyConverter/CurrencyInput";
+import CurrencySection from "./components/CurrencyConverter/CurrencySection";
+import NeonButton from "./components/NeonButton/NeonButton";
 
 function App() {
   return (
@@ -17,9 +20,10 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route index element={<HomePage />} />
-        {/* <Route path="/home" element={<HomePage />} /> */}
+        <Route path="/buttons" element={<NeonButton />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="clock" element={<ClockAnalog />} />
+        <Route path="currency" element={<CurrencySection />} />
+
         <Route path="*" element={<NoPage />} />
       </Routes>
       {/* <Routes>
