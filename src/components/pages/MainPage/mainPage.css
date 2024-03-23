@@ -1,11 +1,12 @@
-.main {
+.navBar {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding: 2%;
 }
 .tab {
-  overflow: hidden;
+  /* overflow: hidden; */
+  list-style: none;
   padding: 3px;
   background-color: #f1f1f1;
 }
@@ -20,7 +21,7 @@
   transition: 0.3s;
   font-size: 17px;
   border-top-right-radius: 10px;
-  width: 80px;
+
   text-decoration: none;
 }
 

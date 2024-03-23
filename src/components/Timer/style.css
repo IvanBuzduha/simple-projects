@@ -1,0 +1,31 @@
+.stopwatch {
+  width: 300px;
+  padding: 30px;
+  margin: 0 auto;
+  background: #95a1a1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.timer {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: white;
+}
+.actions button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #0e6a99;
+  background: #0c7ab1;
+  color: #fff;
+}
+
+.actions button:hover,
+.actions button:focus {
+  background: #03354e;
+}

@@ -1,11 +1,12 @@
 .bgNeon {
   display: flex;
   justify-content: center;
-  min-height: 100vh;
-  width: 100%;
+  min-height: 50vh;
+  width: 70%;
   align-items: center;
   flex-direction: row;
   background: #050801;
+  margin: 0 auto;
 }
 .neonButton {
   position: relative;

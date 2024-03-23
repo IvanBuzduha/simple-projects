@@ -11,6 +11,8 @@ import NoPage from "./components/pages/NoPage/NoPage";
 import CurrencyInput from "./components/CurrencyConverter/CurrencyInput";
 import CurrencySection from "./components/CurrencyConverter/CurrencySection";
 import NeonButton from "./components/NeonButton/NeonButton";
+import Timer from "./components/Timer/Timer";
+import ToDo from "./components/ToDo/ToDo";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/buttons" element={<NeonButton />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="currency" element={<CurrencySection />} />
+        <Route path="timer" element={<Timer />} />
+        <Route path="todo" element={<ToDo />} />
 
         <Route path="*" element={<NoPage />} />
       </Routes>

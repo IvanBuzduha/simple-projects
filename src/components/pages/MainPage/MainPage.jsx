@@ -11,7 +11,7 @@ const MainPage = () => {
   return (
     <>
       <nav>
-        <ul className="main">
+        <ul className="navBar">
           <li className="tab">
             {/* {items.map(item => (
               <Link {...item} key={item.path} />
@@ -35,6 +35,18 @@ const MainPage = () => {
           <li className="tab">
             <Link to="/buttons" className="tabLinks">
               Buttons
+            </Link>
+          </li>
+
+          <li className="tab">
+            <Link to="/timer" className="tabLinks">
+              Timer
+            </Link>
+          </li>
+
+          <li className="tab">
+            <Link to="todo" className="tabLinks">
+              ToDo
             </Link>
           </li>
 
