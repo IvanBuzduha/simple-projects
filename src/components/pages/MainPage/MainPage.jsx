@@ -51,10 +51,16 @@ const MainPage = () => {
           </li>
 
           <li className="tab">
+            <Link to="calc" className="tabLinks">
+              Calc
+            </Link>
+          </li>
+
+          {/* <li className="tab">
             <Link to="*" className="tabLinks">
               NoPage
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
 

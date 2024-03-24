@@ -28,7 +28,7 @@
 .sub-todo-item {
   display: flex;
   align-items: center;
-  width: 300px;
+  /* width: 500px; */
 }
 .sub-todo-item button {
   margin-left: 40px;
