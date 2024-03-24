@@ -14,6 +14,7 @@ import NeonButton from "./components/NeonButton/NeonButton";
 import Timer from "./components/Timer/Timer";
 import ToDo from "./components/ToDo/ToDo";
 import Calc from "./components/Calc/Calc";
+import SliderSwiper from "./components/Slider/SliderSwiper";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="currency" element={<CurrencySection />} />
         <Route path="timer" element={<Timer />} />
         <Route path="todo" element={<ToDo />} />
+        <Route path="slider" element={<SliderSwiper />} />
         {/* <Route path="calc" element={<Calc />} /> */}
 
         <Route path="*" element={<NoPage />} />

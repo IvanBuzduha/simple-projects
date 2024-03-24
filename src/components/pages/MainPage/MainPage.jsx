@@ -56,6 +56,12 @@ const MainPage = () => {
             </Link>
           </li>
 
+          <li className="tab">
+            <Link to="slider" className="tabLinks">
+              Swiper
+            </Link>
+          </li>
+
           {/* <li className="tab">
             <Link to="*" className="tabLinks">
               NoPage

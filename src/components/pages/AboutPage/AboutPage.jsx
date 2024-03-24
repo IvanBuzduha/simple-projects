@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class AboutPage extends Component {
   state = {};
   render() {
-    return <h1>Is is me, Ivan! :`</h1>;
+    return <h1>It's me, Ivan! :)</h1>;
   }
 }
 
