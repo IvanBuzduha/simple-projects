@@ -21,11 +21,11 @@ body {
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-  right: 140px !important;
+  right: 10px !important;
   left: auto;
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-  left: 140px !important;
+  left: 10px !important;
   right: auto;
 }
