@@ -1,38 +1,23 @@
-import "./style.css";
-// import Swiper from "swiper/bundle";
-// import "./script";
-
-// import "swiper/css/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Navigation } from "swiper/modules";
-import "swiper/css/navigation";
-const SliderSwiper = () => {
-  // let swiper = new Swiper(".mySwiper", {
-  //   spaceBetween: 30,
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev"
-  //   },
-  //   pagination: {
-  //     el: ".swiper-pagination",
-  //     clickable: true
-  //   },
-  //   mousewheel: true,
-  //   keyboard: true,
-  //   observer: true,
-  //   observeParents: true,
-  //   parallax: true
-  // });
+import { Navigation, Pagination } from "swiper/modules";
 
+// import "swiper/css/";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./style.css";
+const SliderSwiper = () => {
   return (
     <Swiper
       className={"mySwiper"}
       spaceBetween={30}
       slidesPerView={1}
       navigation={true}
-      modules={[Navigation]}
-      pagination={{ clickable: true }}
+      modules={[Navigation, Pagination]}
+      pagination={{
+        type: "progressbar"
+      }}
       onSlideChange={() => console.log("slide change")}
       onSwiper={swiper => console.log(swiper)}
     >
