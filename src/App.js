@@ -30,7 +30,7 @@ function App() {
         <Route path="timer" element={<Timer />} />
         <Route path="todo" element={<ToDo />} />
         <Route path="slider" element={<SliderSwiper />} />
-        {/* <Route path="calc" element={<Calc />} /> */}
+        <Route path="calc" element={<Calc />} />
 
         <Route path="*" element={<NoPage />} />
       </Routes>

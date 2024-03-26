@@ -6,8 +6,8 @@ import items from "../../../components/Tabs/items.json";
 const MainPage = () => {
   const [active, setActive] = useState(null);
   const openTab = e => setActive(+e.target.dataset.index);
-  console.log("items:", items);
-  console.log("mainRoutes:", mainRoutes);
+  // console.log("items:", items);
+  // console.log("mainRoutes:", mainRoutes);
   return (
     <>
       <nav>
