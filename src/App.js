@@ -1,14 +1,10 @@
-import { Route, Router, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Tabs } from "./components/Tabs/Tabs";
 
-import mainRoutes from "./routes/mainRoutes";
 import HomePage from "./components/pages/HomePage/HomePage";
 import AboutPage from "./components/pages/AboutPage/AboutPage";
 import MainPage from "./components/pages/MainPage/MainPage";
 import NoPage from "./components/pages/NoPage/NoPage";
-
-import CurrencyInput from "./components/CurrencyConverter/CurrencyInput";
 import CurrencySection from "./components/CurrencyConverter/CurrencySection";
 import NeonButton from "./components/NeonButton/NeonButton";
 import Timer from "./components/Timer/Timer";

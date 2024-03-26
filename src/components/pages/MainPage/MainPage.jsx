@@ -1,13 +1,8 @@
-import React, { Component, useState } from "react";
-import { Link, Outlet, Route } from "react-router-dom";
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./mainPage.css";
-import mainRoutes from "../../../routes/mainRoutes";
-import items from "../../../components/Tabs/items.json";
+
 const MainPage = () => {
-  const [active, setActive] = useState(null);
-  const openTab = e => setActive(+e.target.dataset.index);
-  // console.log("items:", items);
-  // console.log("mainRoutes:", mainRoutes);
   return (
     <>
       <nav>
