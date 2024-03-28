@@ -15,9 +15,15 @@ const MainPage = () => {
               Home
             </Link>
           </li>
-          <li className="tab">
+          {/* <li className="tab">
             <Link to="/about" className="tabLinks">
               About
+            </Link>
+          </li> */}
+
+          <li className="tab">
+            <Link to="/quiz" className="tabLinks">
+              Quiz
             </Link>
           </li>
 

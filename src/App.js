@@ -11,6 +11,7 @@ import Timer from "./components/Timer/Timer";
 import ToDo from "./components/ToDo/ToDo";
 import Calc from "./components/Calc/Calc";
 import SliderSwiper from "./components/Slider/SliderSwiper";
+import Quiz from "./components/Quiz/Quiz";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route index element={<HomePage />} />
+        <Route path="/quiz" element={<Quiz />} />
         <Route path="/buttons" element={<NeonButton />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="currency" element={<CurrencySection />} />

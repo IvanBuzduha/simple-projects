@@ -1,17 +1,16 @@
 import { useState } from "react";
-import "./index.scss";
+import "./style.scss";
 import questions from "./questions.json";
-import { Result } from "./components/Result.jsx";
-import { Game } from "./components/Game.jsx";
+import { Result } from "./Result.jsx";
+import { Game } from "./Game.jsx";
 
-functioQuiz
-() {
+function Quiz() {
   const [step, setStep] = useState(0);
   const [correct, setCorrect] = useState(0);
   const question = questions[step];
 
   const onClickVariant = (e, index) => {
-    console.log("e:", e.target.classList);
+    // console.log("e:", e.target.classList);
     setStep(step + 1);
     if (index === question.correct) {
       e.target.classList.add("correct");
@@ -21,7 +20,7 @@ functioQuiz
     }
   };
   return (
-    <div className="App">
+    <div className="App-quiz">
       {step !== questions.length ? (
         <Game step={step} question={question} onClickVariant={onClickVariant} />
       ) : (
@@ -31,5 +30,4 @@ functioQuiz
   );
 }
 
-export default Quiz
-;
+export default Quiz;
