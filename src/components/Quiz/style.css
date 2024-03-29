@@ -4,7 +4,7 @@
   width: 500px;
   border-radius: 30px;
   padding: 40px;
-  background-color: #c5e1c5;
+  background-color: #8fea8f;
   position: relative;
 }
 .App-quiz .result {
@@ -58,5 +58,6 @@
   transition: all 0.1s ease-in-out;
 }
 .App-quiz ul li:hover {
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.931);
+  color: #34e45a;
 }/*# sourceMappingURL=style.css.map */
