@@ -12,6 +12,7 @@ import ToDo from "./components/ToDo/ToDo";
 import Calc from "./components/Calc/Calc";
 import SliderSwiper from "./components/Slider/SliderSwiper";
 import Quiz from "./components/Quiz/Quiz";
+import WaterWaveAnimation from "./components/WaterWaweAnimation/WaterWaweAnimation";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="timer" element={<Timer />} />
         <Route path="todo" element={<ToDo />} />
         <Route path="slider" element={<SliderSwiper />} />
+        <Route path="waterWave" element={<WaterWaveAnimation />} />
         {/* <Route path="calc" element={<Calc />} /> */}
 
         <Route path="*" element={<NoPage />} />

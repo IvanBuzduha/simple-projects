@@ -63,6 +63,12 @@ const MainPage = () => {
             </Link>
           </li>
 
+          <li className="tab">
+            <Link to="waterWave" className="tabLinks">
+              Water Wave
+            </Link>
+          </li>
+
           {/* <li className="tab">
             <Link to="*" className="tabLinks">
               NoPage
