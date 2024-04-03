@@ -8,7 +8,6 @@
 .text-wave {
   font-family: "Poppins", sans-serif;
   position: absolute;
-  /* transform: translate(-50%, -50%); */
   font-size: 8rem;
 }
 .text-wave:nth-last-child(1) {
