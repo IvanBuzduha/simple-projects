@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
 
-// body {
-//   margin: 0;
-//   font-family: 'Nunito', sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-//   background-color: #b5e9a5;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   height: 100vh;
-// }
-
 .App-quiz {
   margin: 0 auto;
   width: 500px;
@@ -57,7 +45,7 @@
       width: 80%;
       background: rgb(18, 231, 48);
       transition: all 0.3s ease-in-out;
-      background: linear-gradient(90deg, rgba(18, 231, 48, 1) 0%, rgba(0, 212, 255, 1) 100%);
+      background: linear-gradient(90deg, rgb(36, 237, 63) 0%, rgba(0, 212, 255, 1) 100%);
     }
   }
 
