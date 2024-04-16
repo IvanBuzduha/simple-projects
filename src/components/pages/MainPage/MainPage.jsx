@@ -68,6 +68,12 @@ const MainPage = () => {
               Water Wave
             </Link>
           </li>
+          
+          <li className="tab">
+            <Link to="cover-letter" className="tabLinks">
+              Cover Letter
+            </Link>
+          </li>
 
           {/* <li className="tab">
             <Link to="*" className="tabLinks">

@@ -9,10 +9,11 @@ import CurrencySection from "./components/CurrencyConverter/CurrencySection";
 import NeonButton from "./components/NeonButton/NeonButton";
 import Timer from "./components/Timer/Timer";
 import ToDo from "./components/ToDo/ToDo";
-import Calc from "./components/Calc/Calc";
+
 import SliderSwiper from "./components/Slider/SliderSwiper";
 import Quiz from "./components/Quiz/Quiz";
-import WaterWaveAnimation from "./components/WaterWaweAnimation/WaterWaweAnimation";
+import WaterWaveAnimation from "./components/WaterWaveAnimation/WaterWaveAnimation";
+import CoverLetter from "./components/pages/Cover Letter/CoverLetter";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="todo" element={<ToDo />} />
         <Route path="slider" element={<SliderSwiper />} />
         <Route path="waterWave" element={<WaterWaveAnimation />} />
+        <Route path="coverLetter" element={<CoverLetter />} />
         {/* <Route path="calc" element={<Calc />} /> */}
 
         <Route path="*" element={<NoPage />} />
