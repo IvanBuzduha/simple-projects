@@ -31,7 +31,7 @@ function App() {
         <Route path="todo" element={<ToDo />} />
         <Route path="slider" element={<SliderSwiper />} />
         <Route path="waterWave" element={<WaterWaveAnimation />} />
-        <Route path="coverLetter" element={<CoverLetter />} />
+        <Route path="cover-letter" element={<CoverLetter />} />
         {/* <Route path="calc" element={<Calc />} /> */}
 
         <Route path="*" element={<NoPage />} />
