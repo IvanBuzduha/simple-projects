@@ -5,10 +5,11 @@ const CoverLetter = () => {
   return (
     <>
       <div className="letter-container">
+        <a href="https://ivanbuzduha.github.io/personal-portfolio/"> Іван Буздуга</a>
         <ul className="letter-list">
-          <li className="list-item name">
-            <a href="https://ivanbuzduha.github.io/personal-portfolio/"> Іван Буздуга</a>
-          </li>
+          {/* <li className="list-item name">
+            
+          </li> */}
           <li className="list-item ">
             <a href="tel:+380683182732"> +380683182732</a>
           </li>

@@ -10,6 +10,9 @@
 .greeting {
   color: #a11717;
 }
+.letter-list :first-child {
+  flex-direction: row;
+}
 .letter-list {
   display: flex;
   flex-direction: column;
@@ -17,6 +20,7 @@
   justify-content: center;
   list-style-type: none;
 }
+
 .name {
   font-size: 1.5rem;
 }
@@ -30,4 +34,5 @@
 .letter-text {
   padding-top: 20px;
   font-size: 1rem;
+  border-top: 7px solid rgb(5, 74, 159);
 }
