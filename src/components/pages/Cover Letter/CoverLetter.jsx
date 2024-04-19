@@ -5,21 +5,22 @@ const CoverLetter = () => {
   return (
     <>
       <div className="letter-container">
-        <a href="https://ivanbuzduha.github.io/personal-portfolio/"> Іван Буздуга</a>
-        <ul className="letter-list">
-          {/* <li className="list-item name">
-            
-          </li> */}
-          <li className="list-item ">
-            <a href="tel:+380683182732"> +380683182732</a>
-          </li>
-          <li className="list-item">
-            <p>Київ</p>
-          </li>
-          <li className="list-item">
-            <a href="mailto:ivanbuzduha@gmail.com">ivanbuzduha@gmail.com</a>
-          </li>
-        </ul>{" "}
+        <div className="letter-content">
+          <a className="letter-name" href="https://ivanbuzduha.github.io/personal-portfolio/">
+            Іван Буздуга
+          </a>
+          <ul className="letter-list">
+            <li className="list-item ">
+              <a href="tel:+380683182732"> +380683182732</a>
+            </li>
+            <li className="list-item">
+              <p>Київ</p>
+            </li>
+            <li className="list-item">
+              <a href="mailto:ivanbuzduha@gmail.com">ivanbuzduha@gmail.com</a>
+            </li>
+          </ul>
+        </div>
         <p className="letter-text">
           Шановний(-а)<span className="greeting"> [Ім'я Отримувача],</span>Я пишаюся представити Вам свою кандидатуру на роль
           Front-end розробника в <span className="greeting">[Назва Компанії]</span> . За останні півроку я активно працював над
