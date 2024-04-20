@@ -23,6 +23,7 @@
 
 .letter-name {
   display: flex;
+  color: #0b0b98;
   font-size: 3rem;
   font-weight: 700;
   text-decoration: none;
