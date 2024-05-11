@@ -23,7 +23,7 @@
 
 .letter-name {
   display: flex;
-  color: #25e076;
+  color: #18b15a;
   font-size: 3rem;
   font-weight: 700;
   text-decoration: none;
@@ -40,7 +40,7 @@
   padding-top: 20px;
   font-weight: 500;
   font-size: 1rem;
-  border-top: 7px solid rgb(5, 74, 159);
+  border-top: 7px solid rgb(5, 159, 59);
 }
 .greeting {
   color: #a11717;
